@@ -9,7 +9,6 @@ export const HistoricoStyle = styled.main`
 
 export const TaskStyle = styled.article`
     height: 42vh;
-    overflow: scroll;
 
     &::-webkit-scrollbar{
         display: none;
@@ -87,4 +86,8 @@ export const NoTaskStyle = styled.section`
     line-height: 42vh;
     background-color: ${({theme}) => theme["neutral-color-7"]};
     text-align: center;
+
+    @media(max-width: 900px){
+        width: 178.5%;
+    }
 `

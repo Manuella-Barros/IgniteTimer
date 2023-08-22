@@ -20,7 +20,7 @@ export const HeaderStyle = styled.header`
         box-shadow: 0 0 0 0;
     }
 
-    @media (max-width: 400px){
+    @media (max-width: 500px){
         grid-template-columns: 8fr 1fr 1fr;
     }
 `
