@@ -88,6 +88,6 @@ export const NoTaskStyle = styled.section`
     text-align: center;
 
     @media(max-width: 900px){
-        width: 178.5%;
+        width: 600px;
     }
 `
